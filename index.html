@@ -26,7 +26,10 @@
             <img src="" id="qrImage">
         </div>
 
-        <button onclick="generateQR()">Generuj kod QR</button>
+        <button id="generateBtn" onclick="generateQR()"></button>
+        <div class="utilitiesBtn">
+            <button onclick="downloadQR()"><i class="fa-solid fa-download"></i></button>
+        </div>
     </div>
 
     <script src="js/script.js"></script>

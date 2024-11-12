@@ -60,6 +60,7 @@ body {
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 1s;
+	margin: 10px auto;
 }
 
 #imgBox img {
@@ -97,4 +98,24 @@ body {
 	100% {
 		transform: translateX(0);
 	}
+}
+
+.utilitiesBtn {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	justify-content: center;
+}
+
+.utilitiesBtn button {
+	width: 150px;
+	background: #e2548a;
+}
+
+.utilitiesBtn button:hover {
+	background: #e05f91;
+}
+
+i {
+	font-size: 20px;
 }
