@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-	width: 400px;
+	width: 320px;
 	padding: 25px 35px;
 	position: absolute;
 	top: 50%;
@@ -118,4 +118,32 @@ body {
 
 i {
 	font-size: 20px;
+}
+
+/* ================================= */
+/* MEDIA */
+/* ================================= */
+
+@media (min-width: 576px) {
+	.container {
+		width: 340px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 360px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		width: 380px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 400px;
+	}
 }
